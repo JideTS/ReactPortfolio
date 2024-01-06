@@ -361,12 +361,13 @@ template {
    ========================================================================== */
 
 .outer-container {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+
 }
 
 .page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   flex: 1;
   overflow: auto;
   background: #FBFBFD;
