@@ -1,0 +1,48 @@
+/* Figma Styles of your File */:root {
+  /* Colors */
+  /* Fonts */
+  --h-1-font-family: Montserrat-SemiBold, sans-serif;
+  --h-1-font-size: 32px;
+  --h-1-line-height: normal;
+  --h-1-font-weight: 600;
+  --h-1-font-style: normal;
+  --h-2-font-family: Montserrat-SemiBold, sans-serif;
+  --h-2-font-size: 32px;
+  --h-2-line-height: normal;
+  --h-2-font-weight: 600;
+  --h-2-font-style: normal;
+  --h-3-font-family: Montserrat-Regular, sans-serif;
+  --h-3-font-size: 24px;
+  --h-3-line-height: normal;
+  --h-3-font-weight: 400;
+  --h-3-font-style: normal;
+  --body-large-font-family: Roboto-Regular, sans-serif;
+  --body-large-font-size: 24px;
+  --body-large-line-height: 32px;
+  --body-large-font-weight: 400;
+  --body-large-font-style: normal;
+  --body-large-semibold-italic-font-family: Roboto-SemiBoldItalic, sans-serif;
+  --body-large-semibold-italic-font-size: 24px;
+  --body-large-semibold-italic-line-height: 32px;
+  --body-large-semibold-italic-font-weight: 600;
+  --body-large-semibold-italic-font-style: italic;
+  --body-min-font-family: Roboto-Regular, sans-serif;
+  --body-min-font-size: 14px;
+  --body-min-line-height: 22px;
+  --body-min-font-weight: 400;
+  --body-min-font-style: normal;
+  --nav-links-font-family: Poppins-Regular, sans-serif;
+  --nav-links-font-size: 14px;
+  --nav-links-line-height: normal;
+  --nav-links-font-weight: 400;
+  --nav-links-font-style: normal;
+  --body-font-family: Roboto-Regular, sans-serif;
+  --body-font-size: 16px;
+  --body-line-height: 24px;
+  --body-font-weight: 400;
+  --body-font-style: normal;
+
+  /* Effects */
+  --cards-drop-shadow-box-shadow:  0px 0px 16px 2px rgba(2, 62, 138, 0.10);
+}
+

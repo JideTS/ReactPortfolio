@@ -1,0 +1,357 @@
+.about,
+.about * {
+  box-sizing: border-box;
+}
+.about {
+  background: var(--grey-light, #fbfbfd);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .body {
+  padding: 64px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .about-me-section-frame {
+  padding: 0px 56px 0px 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  min-width: 393px;
+  max-width: 1728px;
+  position: relative;
+}
+.about .about-me-title-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .about-me-title {
+  color: var(--black-pure, #3b3b3b);
+  text-align: center;
+  font-family: var(--h-1-font-family, "Montserrat-SemiBold", sans-serif);
+  font-size: var(--h-1-font-size, 32px);
+  font-weight: var(--h-1-font-weight, 600);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .about-me-description-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 800px;
+  position: relative;
+}
+.about .about-me-description {
+  border-radius: 8px;
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.about
+  .i-m-a-versatile-product-and-business-model-designer-developer-and-entrepreneur-with-over-15-years-of-experience-my-passion-is-crafting-profitable-digital-experiences-i-m-currently-sharpening-my-full-stack-web-development-skills-and-open-to-contract-work-in-product-design-and-full-stack-development-for-a-wide-range-of-digital-projects {
+  color: #495057;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about .get-in-touch-frame {
+  padding: 48px 0px 48px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .get-in-touch-sub-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 800px;
+  position: relative;
+}
+.about .get-in-touch-title-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .get-in-touch-title {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: var(--h-2-font-family, "Montserrat-SemiBold", sans-serif);
+  font-size: var(--h-2-font-size, 32px);
+  font-weight: var(--h-2-font-weight, 600);
+  position: relative;
+}
+.about .contact-form-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .client-contact-input-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .contact-us-name-input {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .contact-us-first-name-input {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.about .field-title-label {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: var(
+    --text-field-input-label-font-font-family,
+    "Roboto-Medium",
+    sans-serif
+  );
+  font-size: var(--text-field-input-label-font-font-size, 14px);
+  font-weight: var(--text-field-input-label-font-font-weight, 500);
+  position: relative;
+}
+.about .input-group {
+  background: var(--white-pure, #ffffff);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .input {
+  background: var(--white-pure, #ffffff);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--black-pure-70, rgba(59, 59, 59, 0.7));
+  border-width: 1px;
+  padding: 0px 2px 0px 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 40px;
+  position: relative;
+}
+.about .contact-us-email-input {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .contact-us-message-input {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .input-group2 {
+  background: var(--white-pure, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--black-pure-70, rgba(59, 59, 59, 0.7));
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 167px;
+  position: relative;
+}
+.about .input2 {
+  background: var(--white-pure, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--white-pure, #ffffff);
+  border-width: 1px;
+  padding: 0px 2px 0px 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.about .button {
+  background: var(--blue-dark, #054fb9);
+  border-radius: 6px;
+  padding: 0px 24px 0px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 48px;
+  position: relative;
+}
+.about .children {
+  color: var(--cards-white, #ffffff);
+  text-align: left;
+  font-family: var(
+    --button-label-font-font-family,
+    "Poppins-SemiBold",
+    sans-serif
+  );
+  font-size: var(--button-label-font-font-size, 18px);
+  font-weight: var(--button-label-font-font-weight, 600);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about .other-online-cases-container {
+  padding: 0px 0px 32px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .other-online-cases-title-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .other-online-cases-title {
+  color: var(--black-pure, #3b3b3b);
+  text-align: center;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .other-online-cases-frame {
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 900px;
+  position: relative;
+}
+.about .other-online-cases-sub-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about .case-study-card-instance {
+  flex-shrink: 0 !important;
+}
