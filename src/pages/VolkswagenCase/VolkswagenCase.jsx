@@ -89,7 +89,7 @@ export const VolkswagenCase = ({ className, ...props }) => {
           <div className="db-case-collaboration-frame">
             <img
               className="collaborative-config-vw"
-              src="collaborative-config-vw0.png"
+              src="/collaborative-config-vw0.png"
             />
           </div>
         </div>
@@ -106,7 +106,7 @@ export const VolkswagenCase = ({ className, ...props }) => {
           <div className="funnel-conversion-vw-frame">
             <img
               className="funnel-conversion-vw"
-              src="funnel-conversion-vw0.png"
+              src="/funnel-conversion-vw0.png"
             />
           </div>
           <div className="db-case-process-frame">
@@ -116,7 +116,7 @@ export const VolkswagenCase = ({ className, ...props }) => {
             </div>
           </div>
           <div className="mockups-vw-frame">
-            <img className="mockup-vw" src="mockup-vw0.png" />
+            <img className="mockup-vw" src="/mockup-vw0.png" />
           </div>
           <div className="db-case-process-frame">
             <div className="db-case-process">
@@ -125,7 +125,7 @@ export const VolkswagenCase = ({ className, ...props }) => {
             </div>
           </div>
           <div className="vw-tests-utilisateurs-frame">
-            <img className="user-test-vw" src="user-test-vw0.png" />
+            <img className="user-test-vw" src="/user-test-vw0.png" />
           </div>
           <div className="db-case-process-frame">
             <div className="db-case-process">
@@ -134,10 +134,10 @@ export const VolkswagenCase = ({ className, ...props }) => {
             </div>
           </div>
           <div className="skoda-mockup-frame">
-            <img className="skoda-mockup" src="skoda-mockup0.png" />
+            <img className="skoda-mockup" src="/skoda-mockup0.png" />
           </div>
           <div className="seat-mockup-frame">
-            <img className="seat-mockup" src="seat-mockup0.png" />
+            <img className="seat-mockup" src="/seat-mockup0.png" />
           </div>
         </div>
         <div className="db-case-proto-container">

@@ -1,6 +1,6 @@
 /* Code generated with AutoHTML Plugin for Figma */
 import "./Footer.css";
-
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 export const Footer = ({ className, ...props }) => {
@@ -20,7 +20,8 @@ export const Footer = ({ className, ...props }) => {
     <div className={"footer " + className}>
       <div className="footer-controls-frame">
         <div className="footer-controls-sub-frame">
-          <button className="resume-link" onClick={downloadResume}>
+          
+          <Link className="resume-link" onClick={downloadResume}>
             <svg
               className="resume-link-icon"
               width="15"
@@ -36,7 +37,7 @@ export const Footer = ({ className, ...props }) => {
             </svg>
 
             <div className="resume-link-wording">Resume </div>
-          </button>
+          </Link>
 
 
 
