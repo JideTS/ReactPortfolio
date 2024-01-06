@@ -1,0 +1,489 @@
+.case-study-card,
+.case-study-card * {
+  box-sizing: border-box;
+}
+.case-study-card {
+  background: var(--white-pure, #ffffff);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 320px;
+  position: relative;
+}
+.case-study-card .case-study-card-client-logo-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 288px;
+  position: relative;
+}
+.case-study-card .frame-logo-side-walk-labs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .sidewalk-labs-logo-2018 {
+  flex-shrink: 0;
+  width: 287.33px;
+  height: 51.63px;
+  position: relative;
+}
+.case-study-card .frame-logo-sub-zero-wolf {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .logo-szw-1 {
+  flex-shrink: 0;
+  width: 266.75px;
+  height: 20px;
+  position: relative;
+}
+.case-study-card .frame-logo-airbnb {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .logo-airbnb {
+  flex-shrink: 0;
+  width: 154px;
+  height: 48px;
+  position: relative;
+}
+.case-study-card .frame-logo-cogeco {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .logo-cogeco {
+  flex-shrink: 0;
+  width: 254px;
+  height: 48px;
+  position: relative;
+}
+.case-study-card .frame-logo-volkswagen {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .logo-volkswagen {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.case-study-card .frame-logo-bdc {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .logo-bdc-1 {
+  flex-shrink: 0;
+  width: 121.25px;
+  height: 64px;
+  position: relative;
+}
+.case-study-card .frame-logo-aprr {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .aprr-logo {
+  flex-shrink: 0;
+  width: 182.25px;
+  height: 48px;
+  position: relative;
+}
+.case-study-card .frame-logo-shire {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .shire-logo {
+  flex-shrink: 0;
+  width: 159.5px;
+  height: 48px;
+  position: relative;
+}
+.case-study-card .frame-logo-health-check {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .logo-health-check {
+  flex-shrink: 0;
+  width: 235.5px;
+  height: 48px;
+  position: relative;
+}
+.case-study-card .frame-logo-tune-muse {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .tune-muse-logo {
+  flex-shrink: 0;
+  width: 259.5px;
+  height: 48px;
+  position: relative;
+}
+.case-study-card .frame-logo-ads-trees {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .ads-trees-logo {
+  flex-shrink: 0;
+  width: 165px;
+  height: 48px;
+  position: relative;
+}
+.case-study-card .frame-logo-portfolio {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .logo-portfolio {
+  flex-shrink: 0;
+  width: 149.25px;
+  height: 48px;
+  position: relative;
+}
+.case-study-card .case-study-card-divider {
+  background: var(--grey-medium-light, #f3f3f3);
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1.5px;
+  position: relative;
+}
+.case-study-card .case-study-card-body-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.case-study-card .case-study-card-body {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.case-study-card .case-study-card-expertise-chips-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.case-study-card .business-chip {
+  background: var(--green-pop, #89ce00);
+  border-radius: 20px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.case-study-card .business {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+.case-study-card .design-chip {
+  background: var(--pink, #e6308a);
+  border-radius: 20px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.case-study-card .design {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+.case-study-card .coding-chip {
+  background: var(--orange, #f57600);
+  border-radius: 20px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.case-study-card .code {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+.case-study-card .interview-case-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 32px;
+  position: relative;
+}
+.case-study-card .interview {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.case-study-card .interview-case {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+.case-study-card .online-case-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 32px;
+  position: relative;
+}
+.case-study-card .internet {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.case-study-card .online-case {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: var(--body-min-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-min-font-size, 14px);
+  line-height: var(--body-min-line-height, 22px);
+  font-weight: var(--body-min-font-weight, 400);
+  position: relative;
+}
+.case-study-card .app-store-case-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 32px;
+  position: relative;
+}
+.case-study-card .internet2 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.case-study-card .app-store {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: var(--body-min-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-min-font-size, 14px);
+  line-height: var(--body-min-line-height, 22px);
+  font-weight: var(--body-min-font-weight, 400);
+  position: relative;
+}
+.case-study-card .git-hub-case-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 32px;
+  position: relative;
+}
+.case-study-card .internet3 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.case-study-card .git-hub {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: var(--body-min-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-min-font-size, 14px);
+  line-height: var(--body-min-line-height, 22px);
+  font-weight: var(--body-min-font-weight, 400);
+  position: relative;
+}
+.case-study-card .figma-case-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 32px;
+  position: relative;
+}
+.case-study-card .internet4 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.case-study-card .figma {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: var(--body-min-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-min-font-size, 14px);
+  line-height: var(--body-min-line-height, 22px);
+  font-weight: var(--body-min-font-weight, 400);
+  position: relative;
+}
+.case-study-card .beta-case-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 32px;
+  position: relative;
+}
+.case-study-card .internet5 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.case-study-card .beta {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: var(--body-min-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-min-font-size, 14px);
+  line-height: var(--body-min-line-height, 22px);
+  font-weight: var(--body-min-font-weight, 400);
+  position: relative;
+}

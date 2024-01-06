@@ -1,0 +1,76 @@
+.quote-card,
+.quote-card * {
+  box-sizing: border-box;
+}
+.quote-card {
+  background: var(--white-pure, #ffffff);
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.quote-card .quote-icon {
+  padding: 11px 7px 11px 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  transform: translate(-48px, 0px);
+  overflow: visible;
+}
+.quote-card .quote-text {
+  color: var(--black-pure, #3b3b3b);
+  text-align: right;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.quote-card .quote-author {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.quote-card .quote-author-name {
+  color: var(--blue-dark, #054fb9);
+  text-align: right;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+}
+.quote-card .quote-author-role {
+  color: var(--blue-dark, #054fb9);
+  text-align: right;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+}
+.quote-card .quote-author-organization {
+  color: var(--blue-dark, #054fb9);
+  text-align: right;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+}
