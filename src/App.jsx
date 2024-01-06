@@ -13,11 +13,11 @@ function App() {
     <>
 
         
-        <div className="page">
+      
         <Header />
           <Outlet />
           <Footer />
-        </div>
+ 
    
     
     </>
