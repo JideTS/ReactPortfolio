@@ -166,7 +166,7 @@ export const About = ({ className, ...props }) => {
           </div>
           <div className="other-online-cases-frame">
             <div className="other-online-cases-sub-frame">
-              <Link to="/volkswagencase#topAnchor">
+              <Link to="/volkswagencase">
                 <CaseStudyCard
                   showBetaCaseFrame={false}
                   showFrameLogoAirbnb={false}
@@ -226,7 +226,7 @@ export const About = ({ className, ...props }) => {
                 />
               </a>
 
-              <Link to="/aprrcase#topAnchor">
+              <Link to="/aprrcase">
                 <CaseStudyCard
                   showBetaCaseFrame={false}
                   showFrameLogoAirbnb={false}
