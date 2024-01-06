@@ -241,7 +241,7 @@ export const VolkswagenCase = ({ className, ...props }) => {
                 />
               </a>
 
-              <Link to="/aprrcase">
+              <Link to="/AprrCase#topAnchor">
                 <CaseStudyCard
                   showBetaCaseFrame={false}
                   showFrameLogoAirbnb={false}

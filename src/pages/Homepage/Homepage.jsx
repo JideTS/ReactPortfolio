@@ -325,7 +325,7 @@ export const Homepage = ({ className, ...props }) => {
           </div>
           <div className="design-cases-frame">
             <div className="frame-84">
-              <Link to="/aprrcase">
+              <Link to="/AprrCase#topAnchor">
                 <CaseStudyCard
                   showBetaCaseFrame={false}
                   showFrameLogoAirbnb={false}
@@ -353,7 +353,7 @@ export const Homepage = ({ className, ...props }) => {
                 />
               </Link>
 
-              <Link to="/volkswagencase">
+              <Link to="/VolkswagenCase#topAnchor">
                 <CaseStudyCard
                   showBetaCaseFrame={false}
                   showFrameLogoAirbnb={false}
