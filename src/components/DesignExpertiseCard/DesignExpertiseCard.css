@@ -1,0 +1,145 @@
+.design-expertise-card,
+.design-expertise-card * {
+  box-sizing: border-box;
+}
+.design-expertise-card {
+  background: var(--white-pure, #ffffff);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 320px;
+  min-width: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.design-expertise-card .design-expertise-card-title-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.design-expertise-card .design-expertise-card-title {
+  color: var(--burgundy, #a6175a);
+  text-align: left;
+  font-family: var(--h-3-font-family, "Montserrat-Regular", sans-serif);
+  font-size: var(--h-3-font-size, 24px);
+  font-weight: var(--h-3-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.design-expertise-card .design-expertise-card-divider {
+  background: var(--grey-medium-light, #f3f3f3);
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1.5px;
+  position: relative;
+}
+.design-expertise-card .design-expertise-card-body-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.design-expertise-card .design-expertise-card-advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.design-expertise-card .design-expertise-card-advantage-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.design-expertise-card .checkmark-image {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.design-expertise-card .prototyping-goals-setup {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.design-expertise-card .design-expertise-card-advantage-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.design-expertise-card .checkmark-image2 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.design-expertise-card .rapid-iterative-execution {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.design-expertise-card .design-expertise-card-advantage-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.design-expertise-card .checkmark-image3 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.design-expertise-card .live-feedback-integration {
+  color: var(--black-pure, #3b3b3b);
+  text-align: left;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
