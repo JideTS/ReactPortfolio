@@ -12,8 +12,9 @@ function App() {
   return (
     <>
       <div className="outer-container">
-        <Header />
+        
         <div className="page">
+        <Header />
           <Outlet />
           <Footer />
         </div>
