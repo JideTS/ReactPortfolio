@@ -51,6 +51,8 @@
   height: auto;
   position: relative;
   overflow: visible;
+  margin: -1rem;
+  
 }
 .volkswagen-case .hero-text-container {
   padding: 0px 56px 0px 56px;
@@ -212,13 +214,12 @@
 }
 .volkswagen-case .db-case-collaboration-frame {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
-  flex-shrink: 0;
-  height: auto;
+  flex: 1;
   min-width: 288px;
   max-width: 900px;
   position: relative;
@@ -227,8 +228,6 @@
   align-self: stretch;
   flex: 1;
   position: relative;
-  width: auto;
-  height: 100%;
 }
 .volkswagen-case .db-case-process-container {
   padding: 0px 56px 0px 56px;
@@ -302,17 +301,15 @@
   justify-content: flex-start;
   width: 100%;
   flex-shrink: 0;
-  height: auto;
-  min-width: 288px;
+  height: 650px;
   max-width: 900px;
   position: relative;
+  overflow: hidden;
 }
 .volkswagen-case .funnel-conversion-vw {
   align-self: stretch;
   flex: 1;
   position: relative;
-  width: auto;
-  height: 100%;
 }
 .volkswagen-case .mockups-vw-frame {
   display: flex;
@@ -322,17 +319,15 @@
   justify-content: flex-start;
   width: 100%;
   flex-shrink: 0;
-  height: auto;
-  min-width: 288px;
+  height: 599px;
   max-width: 900px;
   position: relative;
+  overflow: hidden;
 }
 .volkswagen-case .mockup-vw {
   align-self: stretch;
   flex: 1;
   position: relative;
-  width: auto;
-  height: 100%;
 }
 .volkswagen-case .vw-tests-utilisateurs-frame {
   display: flex;
@@ -342,18 +337,15 @@
   justify-content: flex-start;
   width: 100%;
   flex-shrink: 0;
-  height: auto;
-  min-width: 288px;
+  height: 449px;
   max-width: 900px;
   position: relative;
-
+  overflow: hidden;
 }
 .volkswagen-case .user-test-vw {
   align-self: stretch;
   flex: 1;
   position: relative;
-  width: auto;
-  height: 100%;
 }
 .volkswagen-case .skoda-mockup-frame {
   display: flex;
@@ -363,17 +355,15 @@
   justify-content: flex-start;
   width: 100%;
   flex-shrink: 0;
-  height: auto;
-  min-width: 288px;
+  height: 766px;
   max-width: 900px;
   position: relative;
+  overflow: hidden;
 }
 .volkswagen-case .skoda-mockup {
   align-self: stretch;
   flex: 1;
   position: relative;
-  width: auto;
-  height: 100%;
 }
 .volkswagen-case .seat-mockup-frame {
   display: flex;
@@ -383,18 +373,15 @@
   justify-content: flex-start;
   width: 100%;
   flex-shrink: 0;
-  height: auto;
-  min-width: 288px;
+  height: 840px;
   max-width: 900px;
   position: relative;
+  overflow: hidden;
 }
 .volkswagen-case .seat-mockup {
   align-self: stretch;
   flex: 1;
   position: relative;
-  width: auto;
-  height: 100%;
-
 }
 .volkswagen-case .db-case-proto-container {
   padding: 0px 56px 0px 56px;
