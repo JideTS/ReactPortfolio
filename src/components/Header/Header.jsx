@@ -6,7 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 export const Header = ({ className, ...props }) => {
   return (
     <div className={"header " + className}>
-      <Link className="logo" to="/#topAnchor">
+      <Link className="logo" to="/">
         <img className="logo-2" src="logo-20.png" />
       </Link>
       <div className="navigation-links-frame">
@@ -93,7 +93,7 @@ export const Header = ({ className, ...props }) => {
         </Link>
        
        
-        <Link className="about-link"  to="/about#topAnchor">
+        <Link className="about-link"  to="/about">
           <svg
             className="about-link-icon"
             width="16"
