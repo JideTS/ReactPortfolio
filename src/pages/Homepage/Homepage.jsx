@@ -9,6 +9,13 @@ import { QuoteCard } from "../../components/QuoteCard/QuoteCard";
 import { HashLink as Link } from "react-router-hash-link";
 
 export const Homepage = ({ className, ...props }) => {
+  
+
+  const handleClick = () => {
+    alert('This case is exclusively presented during interviews, please chose a case available online or book a meeting with me.');
+  };
+
+
   return (
     <div className={"homepage " + className}>
       <div className="body">
@@ -157,31 +164,35 @@ export const Homepage = ({ className, ...props }) => {
           </div>
           <div className="business-works-frame">
             <div className="business-works-sub-frame">
-              <CaseStudyCard
-                showBetaCaseFrame={false}
-                showFrameLogoAirbnb={false}
-                showGitHubCaseFrame={false}
-                showFrameLogoAdsTrees={false}
-                showFrameLogoBdc={false}
-                showFrameLogoSubZeroWolf={false}
-                showFrameLogoCogeco={false}
-                showFrameLogoVolkswagen={false}
-                showOnlineCaseFrame={false}
-                showFrameLogoHealthCheck={false}
-                showFrameLogoAprr={false}
-                showFrameLogoSideWalkLabs={true}
-                showFrameLogoTuneMuse={false}
-                showFigmaCaseFrame={false}
-                showDesignChip={true}
-                showFrameLogoPortfolio={false}
-                showAppStoreCaseFrame={false}
-                showBusinessChip={true}
-                caseStudyCardBody="Performed international strategic user research for Sidewalk Labs, an Alphabet group (Google) company, to uncover client needs and product requirements"
-                showInterviewCaseFrame={true}
-                showFrameLogoShire={false}
-                showCodingChip={false}
-                className="case-study-card-instance"
-              />
+              <Link onClick={handleClick}>
+                <CaseStudyCard
+                  showBetaCaseFrame={false}
+                  showFrameLogoAirbnb={false}
+                  showGitHubCaseFrame={false}
+                  showFrameLogoAdsTrees={false}
+                  showFrameLogoBdc={false}
+                  showFrameLogoSubZeroWolf={false}
+                  showFrameLogoCogeco={false}
+                  showFrameLogoVolkswagen={false}
+                  showOnlineCaseFrame={false}
+                  showFrameLogoHealthCheck={false}
+                  showFrameLogoAprr={false}
+                  showFrameLogoSideWalkLabs={true}
+                  showFrameLogoTuneMuse={false}
+                  showFigmaCaseFrame={false}
+                  showDesignChip={true}
+                  showFrameLogoPortfolio={false}
+                  showAppStoreCaseFrame={false}
+                  showBusinessChip={true}
+                  caseStudyCardBody="Performed international strategic user research for Sidewalk Labs, an Alphabet group (Google) company, to uncover client needs and product requirements"
+                  showInterviewCaseFrame={true}
+                  showFrameLogoShire={false}
+                  showCodingChip={false}
+                  className="case-study-card-instance"
+                />
+              </Link>
+
+              <Link onClick={handleClick}>
               <CaseStudyCard
                 showBetaCaseFrame={false}
                 showFrameLogoAirbnb={false}
@@ -207,8 +218,10 @@ export const Homepage = ({ className, ...props }) => {
                 showCodingChip={false}
                 className="case-study-card-instance"
               />
+              </Link>
             </div>
             <div className="business-works-sub-frame">
+            <Link onClick={handleClick}>
               <CaseStudyCard
                 showBetaCaseFrame={false}
                 showFrameLogoAirbnb={true}
@@ -234,7 +247,11 @@ export const Homepage = ({ className, ...props }) => {
                 showCodingChip={false}
                 className="case-study-card-instance"
               />
+              </Link>
+
+              <Link onClick={handleClick}>
               <CaseStudyCard
+           
                 showBetaCaseFrame={false}
                 showFrameLogoAirbnb={false}
                 showGitHubCaseFrame={false}
@@ -259,6 +276,7 @@ export const Homepage = ({ className, ...props }) => {
                 showCodingChip={false}
                 className="case-study-card-instance"
               />
+              </Link>
             </div>
           </div>
         </div>
@@ -364,6 +382,7 @@ export const Homepage = ({ className, ...props }) => {
               </Link>
             </div>
             <div className="frame-83">
+            <Link onClick={handleClick}>
               <CaseStudyCard
                 showBetaCaseFrame={false}
                 showFrameLogoAirbnb={false}
@@ -389,6 +408,9 @@ export const Homepage = ({ className, ...props }) => {
                 showCodingChip={false}
                 className="case-study-card-instance"
               />
+              </Link>
+
+              <Link onClick={handleClick}>
               <CaseStudyCard
                 showBetaCaseFrame={false}
                 showFrameLogoAirbnb={false}
@@ -414,6 +436,7 @@ export const Homepage = ({ className, ...props }) => {
                 showCodingChip={false}
                 className="case-study-card-instance"
               />
+              </Link>
             </div>
           </div>
         </div>
