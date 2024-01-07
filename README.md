@@ -29,25 +29,15 @@ To use as a foundation for your portfolio, please clone this repository, perform
 
 ### 1. Cloning the Application and Using Node.js
 
-- Clone the repository to your local machine using the Command Line Interface (CLI). 
+- Clone the repository to your local machine using the Command Line Interface (CLI) => git clone https://github.com/jidets/reactportfolio.git
 
-git clone https://github.com/jidets/reactportfolio.git
+- Navigate to the project directory => cd reactportfolio
 
-- Navigate to the project directory.
+- Install all the required dependencies => npm install
 
-cd reactportfolio
+- Start the application => npm run start
 
-- Install all the required dependencies
-
-npm install
-
-- Start the application
-
-npm run start
-
-- Once the application is running and listening, you can access it using your web browser
-
-http://localhost:10000/ 
+- Once the application is running and listening, you can access it using your web browser => http://localhost:10000/ 
 
 - You can then modify the application as you see fit
 
