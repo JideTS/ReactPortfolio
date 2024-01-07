@@ -7,7 +7,7 @@ export const Header = ({ className, ...props }) => {
   return (
     <div className={"header " + className}>
       <Link className="logo" to="/">
-        <img className="logo-2" src="logo-20.png" />
+        <img className="logo-2" src="logo-20.png" alt="Jide's Logo"/>
       </Link>
       <div className="navigation-links-frame">
         

@@ -36,6 +36,7 @@ export const CaseStudyCard = ({
               <img
                 className="sidewalk-labs-logo-2018"
                 src="sidewalk-labs-logo-20180.png"
+                alt="Logo Sidewalks Labs"
               />
             </div>
           </>
@@ -43,77 +44,81 @@ export const CaseStudyCard = ({
         {showFrameLogoSubZeroWolf && (
           <>
             <div className="frame-logo-sub-zero-wolf">
-              <img className="logo-szw-1" src="logo-szw-10.png" />
+              <img
+                className="logo-szw-1"
+                src="logo-szw-10.png"
+                alt="Logo Sub Zero Wolf"
+              />
             </div>
           </>
         )}
         {showFrameLogoAirbnb && (
           <>
             <div className="frame-logo-airbnb">
-              <img className="logo-airbnb" src="logo-airbnb0.png" />
+              <img className="logo-airbnb" src="logo-airbnb0.png" alt="Logo Airbnb" />
             </div>
           </>
         )}
         {showFrameLogoCogeco && (
           <>
             <div className="frame-logo-cogeco">
-              <img className="logo-cogeco" src="logo-cogeco0.png" />
+              <img className="logo-cogeco" src="logo-cogeco0.png" alt="Logo Cogeco" />
             </div>
           </>
         )}
         {showFrameLogoVolkswagen && (
           <>
             <div className="frame-logo-volkswagen">
-              <img className="logo-volkswagen" src="logo-volkswagen0.png" />
+              <img className="logo-volkswagen" src="logo-volkswagen0.png" alt="Logo Volkswagen" />
             </div>
           </>
         )}
         {showFrameLogoBdc && (
           <>
             <div className="frame-logo-bdc">
-              <img className="logo-bdc-1" src="logo-bdc-10.png" />
+              <img className="logo-bdc-1" src="logo-bdc-10.png" alt="Logo BDC" />
             </div>
           </>
         )}
         {showFrameLogoAprr && (
           <>
             <div className="frame-logo-aprr">
-              <img className="aprr-logo" src="aprr-logo0.png" />
+              <img className="aprr-logo" src="aprr-logo0.png" alt="Logo APRR" />
             </div>
           </>
         )}
         {showFrameLogoShire && (
           <>
             <div className="frame-logo-shire">
-              <img className="shire-logo" src="shire-logo0.png" />
+              <img className="shire-logo" src="shire-logo0.png" alt="Logo Shire" />
             </div>
           </>
         )}
         {showFrameLogoHealthCheck && (
           <>
             <div className="frame-logo-health-check">
-              <img className="logo-health-check" src="logo-health-check0.png" />
+              <img className="logo-health-check" src="logo-health-check0.png" alt="Logo Health Check" />
             </div>
           </>
         )}
         {showFrameLogoTuneMuse && (
           <>
             <div className="frame-logo-tune-muse">
-              <img className="tune-muse-logo" src="tune-muse-logo0.png" />
+              <img className="tune-muse-logo" src="tune-muse-logo0.png" alt="Logo Tune Muse" />
             </div>
           </>
         )}
         {showFrameLogoAdsTrees && (
           <>
             <div className="frame-logo-ads-trees">
-              <img className="ads-trees-logo" src="ads-trees-logo0.png" />
+              <img className="ads-trees-logo" src="ads-trees-logo0.png" alt="Logo AdsTress" />
             </div>
           </>
         )}
         {showFrameLogoPortfolio && (
           <>
             <div className="frame-logo-portfolio">
-              <img className="logo-portfolio" src="logo-portfolio0.png" />
+              <img className="logo-portfolio" src="logo-portfolio0.png" alt="Logo Portfolio" />
             </div>
           </>
         )}
