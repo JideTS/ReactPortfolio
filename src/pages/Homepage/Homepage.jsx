@@ -21,7 +21,7 @@ export const Homepage = ({ className, ...props }) => {
       <div className="body">
         <div id="topAnchor" className="hero-banner-container">
           <div className="hero-banner-subcontainer">
-            <img className="hero-banner" src="hero-banner0.svg" alt="Hero banner image" />
+            <img className="hero-banner" src="hero-banner0.png" alt="Hero banner image" />
           </div>
         </div>
         <div className="client-references-container">
