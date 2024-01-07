@@ -45,7 +45,7 @@ To use as a foundation for your portfolio, please clone this repository, perform
 
 Alternatively, you can access our application directly by clicking the link to the deployed application on Render.
 
-([Deployed application on Render](https://jide.onrender.com)).
+[Deployed application on Render](https://jide.onrender.com)
 
 ## Usage
 
@@ -85,7 +85,7 @@ This project is licensed under the MIT License. Please refer to the License file
 
 ## Link to the Deployed Application
 
-([Deployed application on Render](https://jide.onrender.com)).
+[Deployed application on Render](https://jide.onrender.com)
 
 ## Preview of the Application
 
