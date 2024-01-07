@@ -1,6 +1,6 @@
 # ReactPortfolio
 
-INSERT LOGO HERE
+![Logo_Jide_Small](https://github.com/JideTS/ReactPortfolio/assets/20988563/b77bb7cd-567a-409f-b5fa-7621a8bf2e97)
 
 ## Description
 
@@ -98,6 +98,8 @@ This project is licensed under the MIT License. Please refer to the License file
 ([Deployed application on Render](https://jide.onrender.com)).
 
 ## Preview of the Application
+
+<img width="1728" alt="Portfolio Preview Picture" src="https://github.com/JideTS/ReactPortfolio/assets/20988563/35ba1dcf-cea0-4cc5-a67f-7ceb4c5ecd68">
 
 ## Contact
 
