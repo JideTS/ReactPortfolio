@@ -1,6 +1,6 @@
 # ReactPortfolio
 
-INSERT LOGO HERE
+![Logo_Jide_Small](https://github.com/JideTS/ReactPortfolio/assets/20988563/b77bb7cd-567a-409f-b5fa-7621a8bf2e97)
 
 ## Description
 
@@ -29,25 +29,15 @@ To use as a foundation for your portfolio, please clone this repository, perform
 
 ### 1. Cloning the Application and Using Node.js
 
-- Clone the repository to your local machine using the Command Line Interface (CLI). 
+- Clone the repository to your local machine using the Command Line Interface (CLI) => git clone https://github.com/jidets/reactportfolio.git
 
-git clone https://github.com/jidets/reactportfolio.git
+- Navigate to the project directory => cd reactportfolio
 
-- Navigate to the project directory.
+- Install all the required dependencies => npm install
 
-cd reactportfolio
+- Start the application => npm run start
 
-- Install all the required dependencies
-
-npm install
-
-- Start the application
-
-npm run start
-
-- Once the application is running and listening, you can access it using your web browser
-
-http://localhost:10000/ 
+- Once the application is running and listening, you can access it using your web browser => http://localhost:10000/ 
 
 - You can then modify the application as you see fit
 
@@ -55,7 +45,7 @@ http://localhost:10000/
 
 Alternatively, you can access our application directly by clicking the link to the deployed application on Render.
 
-([Deployed application on Render](https://jide.onrender.com)).
+[Deployed application on Render](https://jide.onrender.com)
 
 ## Usage
 
@@ -95,9 +85,11 @@ This project is licensed under the MIT License. Please refer to the License file
 
 ## Link to the Deployed Application
 
-([Deployed application on Render](https://jide.onrender.com)).
+[Deployed application on Render](https://jide.onrender.com)
 
 ## Preview of the Application
+
+<img width="1728" alt="Portfolio Preview Picture" src="https://github.com/JideTS/ReactPortfolio/assets/20988563/35ba1dcf-cea0-4cc5-a67f-7ceb4c5ecd68">
 
 ## Contact
 
