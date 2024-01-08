@@ -103,6 +103,7 @@ export const Homepage = ({ className, ...props }) => {
               digital products. <br />
               <br />
               <br />I blend key ingredients:
+              <br />
               <br />- a factual business vision, data-driven strategies for
               value creation, and profit maximization; <br />- an unwavering
               focus on user experience, ensuring sustainable satisfaction of
