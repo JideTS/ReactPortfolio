@@ -101,6 +101,7 @@ export const Homepage = ({ className, ...props }) => {
               <br />
               This philosophy underpins my approach to creating exceptional
               digital products. <br />
+              <br />
               <br />I blend key ingredients:
               <br />- a factual business vision, data-driven strategies for
               value creation, and profit maximization; <br />- an unwavering
