@@ -1,3 +1,5 @@
+// src/components/BusinessExpertiseCard/BusinessExpertiseCard.jsx
+
 /* eslint-disable react/prop-types */
 /* Code generated with AutoHTML Plugin for Figma */
 import "./BusinessExpertiseCard.css";

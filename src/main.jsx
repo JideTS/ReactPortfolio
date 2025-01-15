@@ -1,3 +1,5 @@
+// src/main.jsx
+
 import ReactDOM from 'react-dom/client';
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -8,7 +10,6 @@ import './vars.css';
 
 import { Homepage } from './pages/Homepage/Homepage';
 import { Error } from './pages/Error/Error';
-import { About } from './pages/About/About';
 import { VolkswagenCase } from './pages/VolkswagenCase/VolkswagenCase';
 import { AprrCase } from './pages/AprrCase/AprrCase';
 
@@ -27,14 +28,7 @@ const router = createBrowserRouter([
         index: true,
         element: <Homepage />,
       },
-
-  
-
-      {
-        path: 'about',
-        element: <About />,
-      },
-
+      
       {
         path: 'volkswagencase',
         element: <VolkswagenCase />,

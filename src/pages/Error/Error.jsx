@@ -1,3 +1,5 @@
+// src/pages/Error/Error.jsx
+
 /* Code generated with AutoHTML Plugin for Figma */
 import "./Error.css";
 

@@ -1,3 +1,5 @@
+/* src/components/CaseStudyCard/CaseStudyCard.css */
+
 .case-study-card,
 .case-study-card * {
   box-sizing: border-box;
@@ -55,6 +57,23 @@
   flex-shrink: 0;
   width: 266.75px;
   height: 20px;
+  position: relative;
+}
+
+.case-study-card .frame-logo-aiwair {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 88px;
+  position: relative;
+}
+.case-study-card .logo-awair {
+  flex-shrink: 0;
+  width: 259.5px;
+  height: 48px;
   position: relative;
 }
 .case-study-card .frame-logo-airbnb {

@@ -1,3 +1,5 @@
+// src/components/CaseStudyCard/CaseStudyCard.jsx
+
 /* Code generated with AutoHTML Plugin for Figma */
 import "./CaseStudyCard.css";
 
@@ -18,6 +20,7 @@ export const CaseStudyCard = ({
   showFigmaCaseFrame = true,
   showDesignChip = true,
   showFrameLogoPortfolio = true,
+  showFrameLogoAiwair = false,
   showAppStoreCaseFrame = true,
   showBusinessChip = true,
   caseStudyCardBody = "Performed international strategic user research for Sidewalk Labs, an Alphabet group (Google) company, to uncover client needs and product requirements",
@@ -37,6 +40,17 @@ export const CaseStudyCard = ({
                 className="sidewalk-labs-logo-2018"
                 src="sidewalk-labs-logo-20180.png"
                 alt="Logo Sidewalks Labs"
+              />
+            </div>
+          </>
+        )}
+        {showFrameLogoAiwair && (
+          <>
+            <div className="frame-logo-aiwair">
+              <img
+                className="logo-aiwair"
+                src="aiwair-logo0.svg"
+                alt="Logo Aiwair"
               />
             </div>
           </>

@@ -1,3 +1,5 @@
+// src/components/QuoteCard/QuoteCard.jsx
+
 /* Code generated with AutoHTML Plugin for Figma */
 import "./QuoteCard.css";
 

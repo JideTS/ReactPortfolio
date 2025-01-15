@@ -1,3 +1,5 @@
+/* src/pages/Homepage/Homepage.css */
+
 .homepage,
 .homepage * {
   box-sizing: border-box;
@@ -169,7 +171,7 @@
   width: 100%;
   flex-shrink: 0;
   min-width: 393px;
-  max-width: 1728px;
+  max-width: 792px;
   position: relative;
 }
 .homepage .creative-approach-title-frame {

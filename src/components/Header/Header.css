@@ -1,15 +1,17 @@
+/* src/components/Header/Header.css */
+
 .header,
 .header * {
   box-sizing: border-box;
 }
 .header {
   background: var(--grey-light, #fbfbfd);
-  padding: 16px 10px 16px 10px;
+  padding: 16px 16px 56px 16px;
   display: flex;
   flex-direction: row;
   gap: 8px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   align-self: stretch;
   flex-shrink: 0;
@@ -22,7 +24,7 @@
   flex-direction: column;
   gap: 10px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
@@ -38,7 +40,7 @@
   flex-direction: row;
   gap: 16px;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
   flex: 1;
   height: 21px;

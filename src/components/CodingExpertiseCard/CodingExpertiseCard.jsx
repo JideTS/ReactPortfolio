@@ -1,3 +1,5 @@
+// src/components/CodingExpertiseCard/CodingExpertiseCard.jsx
+
 /* Code generated with AutoHTML Plugin for Figma */
 import "./CodingExpertiseCard.css";
 

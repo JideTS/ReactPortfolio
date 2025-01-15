@@ -1,3 +1,5 @@
+// src/components/Header/Header.jsx
+
 /* Code generated with AutoHTML Plugin for Figma */
 import "./Header.css";
 
@@ -6,9 +8,6 @@ import { HashLink as Link } from 'react-router-hash-link';
 export const Header = ({ className, ...props }) => {
   return (
     <div className={"header " + className}>
-      <Link className="logo" to="/">
-        <img className="logo-2" src="logo-20.png" alt="Jide's Logo"/>
-      </Link>
       <div className="navigation-links-frame">
         
         
@@ -90,25 +89,6 @@ export const Header = ({ className, ...props }) => {
           </svg>
 
           <div className="code-link-wording">Code </div>
-        </Link>
-       
-       
-        <Link className="about-link"  to="/about">
-          <svg
-            className="about-link-icon"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M8 0C3.58584 0 0 3.58584 0 8C0 12.4142 3.58584 16 8 16C12.4142 16 16 12.4142 16 8C16 3.58584 12.4142 0 8 0ZM8 0.695652C12.0382 0.695652 15.3043 3.9618 15.3043 8C15.3043 12.0382 12.0382 15.3043 8 15.3043C3.9618 15.3043 0.695652 12.0382 0.695652 8C0.695652 3.9618 3.9618 0.695652 8 0.695652ZM8 3.13043C7.72325 3.13043 7.45784 3.24037 7.26215 3.43606C7.06646 3.63175 6.95652 3.89717 6.95652 4.17391C6.95652 4.45066 7.06646 4.71607 7.26215 4.91176C7.45784 5.10745 7.72325 5.21739 8 5.21739C8.27675 5.21739 8.54216 5.10745 8.73785 4.91176C8.93354 4.71607 9.04348 4.45066 9.04348 4.17391C9.04348 3.89717 8.93354 3.63175 8.73785 3.43606C8.54216 3.24037 8.27675 3.13043 8 3.13043ZM6.6087 6.6087V7.30435H6.95652H7.30435V11.8261H6.95652H6.6087V12.5217H6.95652H7.30435H8.69565H9.04348H9.3913V11.8261H9.04348H8.69565V6.6087H8.34783H6.95652H6.6087Z"
-              fill="black"
-            />
-          </svg>
-
-          <div className="about-link-wording">About </div>
         </Link>
       </div>
     </div>

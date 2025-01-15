@@ -1,3 +1,5 @@
+// src/components/Footer/Footer.jsx
+
 /* Code generated with AutoHTML Plugin for Figma */
 import "./Footer.css";
 import { HashLink as Link } from 'react-router-hash-link';
@@ -6,10 +8,10 @@ import { HashLink as Link } from 'react-router-hash-link';
 export const Footer = ({ className, ...props }) => {
 
   const downloadResume = () => {
-    const pdfUrl = "resumeJide.pdf";
+    const pdfUrl = "CV_EN_FR_Jide_Tidjani-Serpos.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "resumeJide.pdf";
+    link.download = "CV_EN_FR_Jide_Tidjani-Serpos.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

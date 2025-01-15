@@ -1,3 +1,6 @@
+// src/pages/Homepage/Homepage.jsx
+
+
 /* Code generated with AutoHTML Plugin for Figma */
 import "./Homepage.css";
 import { BusinessExpertiseCard } from "../../components/BusinessExpertiseCard/BusinessExpertiseCard";
@@ -130,7 +133,7 @@ export const Homepage = ({ className, ...props }) => {
               <BusinessExpertiseCard
                 advantage1="Current State Research"
                 advantage2="Strategic Ideation Workshops"
-                title="Customer Journey Mapping"
+                title="Client Journey Mapping"
                 advantage3="Desired State Co-creation"
                 className="business-expertise-card-instance"
               />
@@ -153,7 +156,7 @@ export const Homepage = ({ className, ...props }) => {
               <BusinessExpertiseCard
                 advantage1="Customer Base Segmentation"
                 advantage2="User Experience Personalization"
-                title="Client Engagement Retention"
+                title="Customer Loyalty Tactics"
                 advantage3="Client Feedback Enhancement"
                 className="business-expertise-card-instance"
               />
@@ -305,7 +308,7 @@ export const Homepage = ({ className, ...props }) => {
             </div>
             <div className="design-expertise-sub-frame">
               <DesignExpertiseCard
-                title="Behavior Influence Sciences"
+                title="Behavior Design Sciences"
                 advantage1="Behavior Psychology Studies"
                 advantage2="Cohort Behavior Testing "
                 advantage3="Data Driven Decisions"
@@ -404,10 +407,10 @@ export const Homepage = ({ className, ...props }) => {
                 showFrameLogoPortfolio={false}
                 showAppStoreCaseFrame={false}
                 showBusinessChip={true}
-                caseStudyCardBody="Conducted cross-expertise design, created high conversion responsive financing request journeys, trained design team members on Figma"
+                caseStudyCardBody="Conducted cross-expertise design, created high conversion responsive financing request journeys, built an Angular based design system"
                 showInterviewCaseFrame={true}
                 showFrameLogoShire={false}
-                showCodingChip={false}
+                showCodingChip={true}
                 className="case-study-card-instance"
               />
               </Link>
@@ -449,33 +452,33 @@ export const Homepage = ({ className, ...props }) => {
           <div className="coding-toolset-frame">
             <div className="frame-91">
               <CodingExpertiseCard
-                title="Browser Based Technologies"
+                title="Font End Technologies"
                 advantage1="HTML, CSS, JavaScript"
-                advantage2="Progressive Web Applications"
-                advantage3="Figma + React.js"
+                advantage2="React, Angular"
+                advantage3="SwiftUI, Kotlin"
                 className="coding-expertise-card-instance"
               />
               <CodingExpertiseCard
-                title="Mobile Application Development"
-                advantage1="Swift"
-                advantage2="Firebase"
-                advantage3="React Native"
+                title="Server Side Development"
+                advantage1="Node"
+                advantage2="Express"
+                advantage3="Next"
                 className="coding-expertise-card-instance"
               />
             </div>
             <div className="frame-92">
               <CodingExpertiseCard
-                title="Server Side Architecture"
-                advantage1="Node.js"
-                advantage2="Express"
-                advantage3="User Authentication"
+                title="Hosted Cloud Services"
+                advantage1="Azure"
+                advantage2="AWS"
+                advantage3="Firebase"
                 className="coding-expertise-card-instance"
               />
               <CodingExpertiseCard
-                title="Database Storage Management"
-                advantage1="Session Storage"
-                advantage2="MySQL"
-                advantage3="MongoDB"
+                title="Code Management"
+                advantage1="Git"
+                advantage2="npm"
+                advantage3="Nexus"
                 className="coding-expertise-card-instance"
               />
             </div>
@@ -553,15 +556,16 @@ export const Homepage = ({ className, ...props }) => {
             </div>
             <div className="frame-86">
               <a
-                href="https://www.figma.com/proto/ZEYedhkzLnv6XNF6OaA4d4/AdsTrees_Main?page-id=0%3A1&type=design&node-id=1132-15650&viewport=-24329%2C209%2C0.27&t=4vH83h6lZOqE6rOD-8&scaling=contain&starting-point-node-id=1132%3A15650&hide-ui=1"
+                href="https://www.aiwair.com"
                 target="_blank"
                 rel="noreferrer"
               >
                 <CaseStudyCard
-                  showBetaCaseFrame={false}
+                  showBetaCaseFrame={true}
                   showFrameLogoAirbnb={false}
                   showGitHubCaseFrame={false}
-                  showFrameLogoAdsTrees={true}
+                  showFrameLogoAdsTrees={false}
+                  showFrameLogoAiwair={true}
                   showFrameLogoBdc={false}
                   showFrameLogoSubZeroWolf={false}
                   showFrameLogoCogeco={false}
@@ -571,12 +575,12 @@ export const Homepage = ({ className, ...props }) => {
                   showFrameLogoAprr={false}
                   showFrameLogoSideWalkLabs={false}
                   showFrameLogoTuneMuse={false}
-                  showFigmaCaseFrame={true}
+                  showFigmaCaseFrame={false}
                   showDesignChip={true}
                   showFrameLogoPortfolio={false}
                   showAppStoreCaseFrame={false}
                   showBusinessChip={true}
-                  caseStudyCardBody="Designed and developed this collaborative MVP allowing people to watch ads in exchange for planting trees, contributing to save the planet"
+                  caseStudyCardBody="Designed and developed this application to gather open-ended feedback. Aiwair uses AI to summarize all responses into a combined report that helps you grow"
                   showInterviewCaseFrame={false}
                   showFrameLogoShire={false}
                   showCodingChip={true}
@@ -608,7 +612,7 @@ export const Homepage = ({ className, ...props }) => {
                   showFrameLogoPortfolio={true}
                   showAppStoreCaseFrame={false}
                   showBusinessChip={true}
-                  caseStudyCardBody="I led the design and coding of the React application powering this portfolio. Here feel free to discover the behind-the-scenes making-of"
+                  caseStudyCardBody="Led the design and coding of the React application powering this portfolio. Here feel free to discover the behind-the-scenes making-of"
                   showInterviewCaseFrame={false}
                   showFrameLogoShire={false}
                   showCodingChip={true}
