@@ -48,12 +48,15 @@
   overflow: hidden;
 }
 .volkswagen-case .vw-van-frame {
-  align-self: stretch;
+  display: flex;
+  align-self: center;
   flex: 1;
   height: auto;
   position: relative;
   overflow: visible;
   margin: -1rem;
+  justify-content: center;
+
   
 }
 .volkswagen-case .hero-text-container {
