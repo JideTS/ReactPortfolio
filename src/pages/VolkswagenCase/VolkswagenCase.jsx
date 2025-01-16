@@ -13,8 +13,8 @@ export const VolkswagenCase = ({ className, ...props }) => {
           <div className="hero-banner-subcontainer">
             <svg
               className="vw-van-frame"
-              width="2500"
-              height="500"
+              width="5000"
+              height="1000"
               viewBox="0 0 2500 500"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
