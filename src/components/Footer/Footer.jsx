@@ -1,25 +1,25 @@
 // src/components/Footer/Footer.jsx
 
-/* Code generated with AutoHTML Plugin for Figma */
+import PropTypes from "prop-types";
+import { HashLink as Link } from "react-router-hash-link";
+
+import { cx } from "../../utils/classNames";
 import "./Footer.css";
-import { HashLink as Link } from 'react-router-hash-link';
 
+const RESUME_FILE = "CV_EN_FR_Jide_Tidjani-Serpos.pdf";
 
-export const Footer = ({ className, ...props }) => {
-
+export const Footer = ({ className }) => {
   const downloadResume = () => {
-    const pdfUrl = "CV_EN_FR_Jide_Tidjani-Serpos.pdf";
     const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "CV_EN_FR_Jide_Tidjani-Serpos.pdf";
+    link.href = RESUME_FILE;
+    link.download = RESUME_FILE;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-};
-
+  };
 
   return (
-    <div className={"footer " + className}>
+    <div className={cx("footer", className)}>
       <div className="footer-controls-frame">
         <div className="footer-controls-sub-frame">
           
@@ -161,4 +161,8 @@ export const Footer = ({ className, ...props }) => {
       </div>
     </div>
   );
+};
+
+Footer.propTypes = {
+  className: PropTypes.string,
 };

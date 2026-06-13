@@ -1,8 +1,12 @@
 // src/components/BusinessExpertiseCard/BusinessExpertiseCard.jsx
 
-/* eslint-disable react/prop-types */
-/* Code generated with AutoHTML Plugin for Figma */
+import PropTypes from "prop-types";
+
+import { CheckmarkIcon } from "../icons/CheckmarkIcon";
+import { cx } from "../../utils/classNames";
 import "./BusinessExpertiseCard.css";
+
+const CHECKMARK_FILL = "#356100";
 
 export const BusinessExpertiseCard = ({
   advantage1 = "Current State Research",
@@ -10,69 +14,40 @@ export const BusinessExpertiseCard = ({
   title = "Customer Journey Mapping",
   advantage3 = "Desired State Co-creation",
   className,
-  ...props
 }) => {
+  const advantages = [
+    { text: advantage1, checkmarkClassName: "checkmark-image", textClassName: "current-state-research" },
+    { text: advantage2, checkmarkClassName: "checkmark-image2", textClassName: "strategic-ideation-workshops" },
+    { text: advantage3, checkmarkClassName: "checkmark-image3", textClassName: "desired-state-co-creation" },
+  ];
+
   return (
-    <div className={"business-expertise-card " + className}>
+    <div className={cx("business-expertise-card", className)}>
       <div className="business-expertise-card-title-frame">
         <div className="business-expertise-card-title">{title} </div>
       </div>
       <div className="business-expertise-card-divider"></div>
       <div className="business-expertise-card-body-frame">
         <div className="business-expertise-card-advantages">
-          <div className="business-expertise-card-advantage-1">
-            <svg
-              className="checkmark-image"
-              width="16"
-              height="17"
-              viewBox="0 0 16 17"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+          {advantages.map((advantage, index) => (
+            <div
+              key={advantage.textClassName}
+              className={`business-expertise-card-advantage-${index + 1}`}
             >
-              <path
-                d="M13.5333 4.5332L5.66666 12.3999L2.46666 9.19987L1.53333 10.1665L5.66666 14.2665L14.4667 5.46654L13.5333 4.5332Z"
-                fill="#356100"
-              />
-            </svg>
-
-            <div className="current-state-research">{advantage1} </div>
-          </div>
-          <div className="business-expertise-card-advantage-2">
-            <svg
-              className="checkmark-image2"
-              width="16"
-              height="17"
-              viewBox="0 0 16 17"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M13.5333 4.5332L5.66666 12.3999L2.46666 9.19987L1.53333 10.1665L5.66666 14.2665L14.4667 5.46654L13.5333 4.5332Z"
-                fill="#356100"
-              />
-            </svg>
-
-            <div className="strategic-ideation-workshops">{advantage2} </div>
-          </div>
-          <div className="business-expertise-card-advantage-3">
-            <svg
-              className="checkmark-image3"
-              width="16"
-              height="17"
-              viewBox="0 0 16 17"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M13.5333 4.5332L5.66666 12.3999L2.46666 9.19987L1.53333 10.1665L5.66666 14.2665L14.4667 5.46654L13.5333 4.5332Z"
-                fill="#356100"
-              />
-            </svg>
-
-            <div className="desired-state-co-creation">{advantage3} </div>
-          </div>
+              <CheckmarkIcon fill={CHECKMARK_FILL} className={advantage.checkmarkClassName} />
+              <div className={advantage.textClassName}>{advantage.text} </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
   );
+};
+
+BusinessExpertiseCard.propTypes = {
+  title: PropTypes.string,
+  advantage1: PropTypes.string,
+  advantage2: PropTypes.string,
+  advantage3: PropTypes.string,
+  className: PropTypes.string,
 };

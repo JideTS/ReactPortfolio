@@ -1,17 +1,19 @@
 // src/pages/Error/Error.jsx
 
-/* Code generated with AutoHTML Plugin for Figma */
+import PropTypes from "prop-types";
+
+import { cx } from "../../utils/classNames";
 import "./Error.css";
 
-export const Error = ({ className, ...props }) => {
+export const Error = ({ className }) => {
   return (
-    <div className={"error " + className}>
+    <div className={cx("error", className)}>
       <div className="body">
         <div className="error-page-title-frame">
           <div className="error-page-title">IT’S NOT YOU, IT’S ME </div>
         </div>
         <div className="error-page-picture-frame">
-          <img className="error-page-picture" src="error-page-picture0.png" />
+          <img className="error-page-picture" src="error-page-picture0.png" alt="" />
         </div>
         <div className="error-page-baseline-frame">
           <div className="error-page-baseline">
@@ -21,4 +23,8 @@ export const Error = ({ className, ...props }) => {
       </div>
     </div>
   );
+};
+
+Error.propTypes = {
+  className: PropTypes.string,
 };

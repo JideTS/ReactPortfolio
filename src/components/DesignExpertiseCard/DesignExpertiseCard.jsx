@@ -1,7 +1,12 @@
 // src/components/DesignExpertiseCard/DesignExpertiseCard.jsx
 
-/* Code generated with AutoHTML Plugin for Figma */
+import PropTypes from "prop-types";
+
+import { CheckmarkIcon } from "../icons/CheckmarkIcon";
+import { cx } from "../../utils/classNames";
 import "./DesignExpertiseCard.css";
+
+const CHECKMARK_FILL = "#A6175A";
 
 export const DesignExpertiseCard = ({
   title = "Rapid Design Prototyping",
@@ -9,69 +14,40 @@ export const DesignExpertiseCard = ({
   advantage2 = "Rapid Iterative Execution",
   advantage3 = "Live Feedback Integration",
   className,
-  ...props
 }) => {
+  const advantages = [
+    { text: advantage1, checkmarkClassName: "checkmark-image", textClassName: "prototyping-goals-setup" },
+    { text: advantage2, checkmarkClassName: "checkmark-image2", textClassName: "rapid-iterative-execution" },
+    { text: advantage3, checkmarkClassName: "checkmark-image3", textClassName: "live-feedback-integration" },
+  ];
+
   return (
-    <div className={"design-expertise-card " + className}>
+    <div className={cx("design-expertise-card", className)}>
       <div className="design-expertise-card-title-frame">
         <div className="design-expertise-card-title">{title} </div>
       </div>
       <div className="design-expertise-card-divider"></div>
       <div className="design-expertise-card-body-frame">
         <div className="design-expertise-card-advantages">
-          <div className="design-expertise-card-advantage-1">
-            <svg
-              className="checkmark-image"
-              width="16"
-              height="17"
-              viewBox="0 0 16 17"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+          {advantages.map((advantage, index) => (
+            <div
+              key={advantage.textClassName}
+              className={`design-expertise-card-advantage-${index + 1}`}
             >
-              <path
-                d="M13.5333 4.5332L5.66666 12.3999L2.46666 9.19987L1.53333 10.1665L5.66666 14.2665L14.4667 5.46654L13.5333 4.5332Z"
-                fill="#A6175A"
-              />
-            </svg>
-
-            <div className="prototyping-goals-setup">{advantage1} </div>
-          </div>
-          <div className="design-expertise-card-advantage-2">
-            <svg
-              className="checkmark-image2"
-              width="16"
-              height="17"
-              viewBox="0 0 16 17"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M13.5333 4.5332L5.66666 12.3999L2.46666 9.19987L1.53333 10.1665L5.66666 14.2665L14.4667 5.46654L13.5333 4.5332Z"
-                fill="#A6175A"
-              />
-            </svg>
-
-            <div className="rapid-iterative-execution">{advantage2} </div>
-          </div>
-          <div className="design-expertise-card-advantage-3">
-            <svg
-              className="checkmark-image3"
-              width="16"
-              height="17"
-              viewBox="0 0 16 17"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M13.5333 4.5332L5.66666 12.3999L2.46666 9.19987L1.53333 10.1665L5.66666 14.2665L14.4667 5.46654L13.5333 4.5332Z"
-                fill="#A6175A"
-              />
-            </svg>
-
-            <div className="live-feedback-integration">{advantage3} </div>
-          </div>
+              <CheckmarkIcon fill={CHECKMARK_FILL} className={advantage.checkmarkClassName} />
+              <div className={advantage.textClassName}>{advantage.text} </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
   );
+};
+
+DesignExpertiseCard.propTypes = {
+  title: PropTypes.string,
+  advantage1: PropTypes.string,
+  advantage2: PropTypes.string,
+  advantage3: PropTypes.string,
+  className: PropTypes.string,
 };

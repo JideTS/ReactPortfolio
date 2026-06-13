@@ -1,6 +1,8 @@
 // src/components/QuoteCard/QuoteCard.jsx
 
-/* Code generated with AutoHTML Plugin for Figma */
+import PropTypes from "prop-types";
+
+import { cx } from "../../utils/classNames";
 import "./QuoteCard.css";
 
 export const QuoteCard = ({
@@ -9,10 +11,9 @@ export const QuoteCard = ({
   quote = "",
   quoteAuthorName = "",
   className,
-  ...props
 }) => {
   return (
-    <div className={"quote-card " + className}>
+    <div className={cx("quote-card", className)}>
       <svg
         className="quote-icon"
         width="48"
@@ -37,4 +38,12 @@ export const QuoteCard = ({
       </div>
     </div>
   );
+};
+
+QuoteCard.propTypes = {
+  quote: PropTypes.string,
+  quoteAuthorName: PropTypes.string,
+  quoteAuthorTitle: PropTypes.string,
+  quoteAuthorOrganization: PropTypes.string,
+  className: PropTypes.string,
 };
