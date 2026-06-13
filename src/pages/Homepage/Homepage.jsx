@@ -587,8 +587,37 @@ export const Homepage = ({ className }) => {
                   className="case-study-card-instance"
                 />
               </a>
-
- 
+              <a
+                href="https://github.com/JideTS/ReactPortfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <CaseStudyCard
+                  showBetaCaseFrame={false}
+                  showFrameLogoAirbnb={false}
+                  showGitHubCaseFrame={true}
+                  showFrameLogoAdsTrees={false}
+                  showFrameLogoBdc={false}
+                  showFrameLogoSubZeroWolf={false}
+                  showFrameLogoCogeco={false}
+                  showFrameLogoVolkswagen={false}
+                  showOnlineCaseFrame={false}
+                  showFrameLogoHealthCheck={false}
+                  showFrameLogoAprr={false}
+                  showFrameLogoSideWalkLabs={false}
+                  showFrameLogoTuneMuse={false}
+                  showFigmaCaseFrame={false}
+                  showDesignChip={true}
+                  showFrameLogoPortfolio={true}
+                  showAppStoreCaseFrame={false}
+                  showBusinessChip={true}
+                  caseStudyCardBody="Led the design and coding of the React application powering this portfolio. Here feel free to discover the behind-the-scenes making-of"
+                  showInterviewCaseFrame={false}
+                  showFrameLogoShire={false}
+                  showCodingChip={true}
+                  className="case-study-card-instance"
+                />
+              </a>
             </div>
           </div>
         </div>

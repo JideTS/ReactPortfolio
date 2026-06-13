@@ -70,9 +70,9 @@
   height: 88px;
   position: relative;
 }
-.case-study-card .logo-awair {
+.case-study-card .logo-aiwair {
   flex-shrink: 0;
-  width: 259.5px;
+  width: 242.5px;
   height: 48px;
   position: relative;
 }
@@ -204,10 +204,10 @@
   height: 88px;
   position: relative;
 }
-.case-study-card .tune-muse-logo {
+.case-study-card .traigger-logo {
   flex-shrink: 0;
-  width: 137px;
-  height: 24px;
+  width: 276.5px;
+  height: 48px;
   position: relative;
 }
 .case-study-card .frame-logo-ads-trees {
@@ -223,7 +223,7 @@
 }
 .case-study-card .ads-trees-logo {
   flex-shrink: 0;
-  width: 165px;
+  width: 242.5px;
   height: 48px;
   position: relative;
 }
