@@ -1,20 +1,31 @@
-// src/App.jsx
+import { Outlet, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
-// Bringing in the required import from 'react-router-dom'
-import { Outlet } from "react-router-dom";
+import { Footer } from './components/Footer';
 
-// Importing components and utils
-import { Footer } from "./components/Footer/Footer";
+const ScrollToHash = () => {
+  const { hash, pathname } = useLocation();
 
-import "./app.css";
+  useEffect(() => {
+    if (!hash) {
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      return;
+    }
+
+    const element = document.getElementById(hash.slice(1));
+    element?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, [hash, pathname]);
+
+  return null;
+};
 
 function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
-    <>
+    <div className="app-shell">
+      <ScrollToHash />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }
 
