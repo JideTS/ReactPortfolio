@@ -197,10 +197,14 @@ button {
 }
 
 .hero-copy {
+	--hero-avatar-side: clamp(80px, 8.36vw, 144px);
+	--hero-avatar-gap: clamp(14px, 1.48vw, 25px);
+
 	grid-area: 1 / 1;
 	position: absolute;
 	top: 33.25%;
-	left: calc(47.75% + clamp(24px, 2.2vw, 44px));
+	left: 50%;
+	transform: translateX(calc((var(--hero-avatar-side) + var(--hero-avatar-gap) - 100%) / 2));
 	z-index: 1;
 	width: max-content;
 	margin: 0;
@@ -476,6 +480,7 @@ button {
 
 .discipline-list {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 8px;
 }
 
@@ -733,17 +738,26 @@ button {
 	}
 
 	.hero-artwork {
+		--hero-artwork-shift: clamp(0px, calc((100vw - 360px) * 0.3), 18px);
+
 		width: max(100%, 720px);
 		height: auto;
 		max-width: none;
 		margin-left: 50%;
-		transform: translateX(-50%);
+		transform: translateX(calc(-50% - var(--hero-artwork-shift)));
 	}
 
 	.hero-copy {
+		--hero-avatar-side: 60px;
+		--hero-avatar-gap: 13px;
+
 		position: absolute;
-		top: 31%;
+		top: calc(31.25% + (var(--hero-avatar-side) / 2) - 11px);
 		left: 50%;
+		transform: translate(
+			calc((var(--hero-avatar-side) + var(--hero-avatar-gap) - 100%) / 2),
+			-50%
+		);
 		width: max-content;
 		max-width: calc(50% - 16px);
 		margin: 0;
